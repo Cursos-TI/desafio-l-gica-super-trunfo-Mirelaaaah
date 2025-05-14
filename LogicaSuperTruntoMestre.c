@@ -235,10 +235,10 @@ int main() {
     // Código para caso o usuario escolha a mesma opção nos dois menus.
 
     if (Ataque1 == Ataque2) {
-    printf("Os atributos são iguais, escolha novamente!\n");
-} else {
-    printf("!!!Cartas batalhando!!!\n");
+    printf("Os atributos são iguais! Escolha um atributo diferente.\n");
+    return; // Sai da função atual.
 }
+    printf("!!!Cartas batalhando!!!\n");
 
     // Para dar espaçamento e melhorar o entedimento/leitura.
 
